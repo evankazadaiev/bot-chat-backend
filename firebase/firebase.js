@@ -8,16 +8,3 @@ admin.initializeApp({
 const db = admin.firestore();
 
 module.exports = db;
-
-
-// var defaultApp = admin.initializeApp(defaultAppConfig);
-//
-// console.log(defaultApp.name);  // '[DEFAULT]'
-//
-// // Retrieve services via the defaultApp variable...
-// var defaultAuth = defaultApp.auth();
-// var defaultDatabase = defaultApp.database();
-//
-// // ... or use the equivalent shorthand notation
-// defaultAuth = admin.auth();
-// defaultDatabase = admin.database();
