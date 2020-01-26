@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e9ac885-e98c-4562-8037-5f3904f4499e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/chat.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/chat/chat.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/chat.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/chat/chat.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firebase/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +32,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\technical_tasks\social_tech\bot-chat-backend\modules" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,8 +61,16 @@
       <option name="presentableId" value="Default" />
       <updated>1579869544663</updated>
       <workItem from="1579869545895" duration="1108000" />
-      <workItem from="1579901655585" duration="24997000" />
+      <workItem from="1579901655585" duration="26591000" />
     </task>
+    <task id="LOCAL-00001" summary="removed test index.html and script.js files">
+      <created>1580037822774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580037822774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed test index.html and script.js files" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed test index.html and script.js files" />
   </component>
 </project>

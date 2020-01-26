@@ -1,6 +1,7 @@
-const utils = require('firebase/firebase.utils');
-const chatUtils = require('chat/chat.utils');
-const io = require('socket.io')(3000);
+const utils = require('modules/firebase/firebase.utils');
+const chatUtils = require('modules/chat/chat.utils');
+const { PORT } = require('config/config');
+const io = require('socket.io')(PORT);
 const nsp = io.of('/bot-chat');
 
 // utils.initDefaultCollection();
