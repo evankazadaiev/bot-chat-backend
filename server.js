@@ -1,16 +1,24 @@
-const express = require('express');
-const app = express();
-const server = require('http').Server(app, { origins: '*:*'});
 const utils = require('modules/firebase/firebase.utils');
 const chatUtils = require('modules/chat/chat.utils');
+
+const http = require('http');
+const express = require('express');
+const socketio = require('socket.io');
+const cors = require('cors');
+
+const app = express();
+const server = http.createServer(app);
+const io = socketio(server);
+
+app.use(cors());
+
+
 const { PORT } = require('config/config');
-const io = require('socket.io')(server);
-const nsp = io.of('/bot-chat');
+
 
 // utils.initDefaultCollection();
-app.user(express.static(`${__dirname}../../build`))
 
-nsp.on('connection', socket => {
+io.on('connection', socket => {
   console.log('User Connected');
   
   socket.on('rooms', async () => {
@@ -22,8 +30,8 @@ nsp.on('connection', socket => {
     //WHEN USER JOINED
     socket.join(roomId);
     const { messages } = await utils.getMessagesByRoomId(roomId);
-    
-    nsp.to(roomId).emit('join_room', messages);
+  
+    io.to(roomId).emit('join_room', messages);
   });
   
   socket.on('message', async ({ roomId, message }) => {
@@ -32,7 +40,7 @@ nsp.on('connection', socket => {
       await setTimeout(async () => {
         const randomMessage = chatUtils.getRandomMessage(roomId);
         randomMessage.timestamp = new Date();
-        await nsp.to(roomId).emit('message', randomMessage);
+        await io.to(roomId).emit('message', randomMessage);
         await utils.saveMessageToRoom(roomId, randomMessage);
       }, (Math.random() * (5 - 1) + 1) * 1000);
     } catch(error) {
@@ -47,8 +55,7 @@ nsp.on('connection', socket => {
   });
 });
 
-server.listen(PORT, () => {
-  console.log(`connected to port: ${PORT}`);
-});
+server.listen(PORT || 3000,
+  () => console.log('Server has been started'));
 
 
