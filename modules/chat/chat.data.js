@@ -1,69 +1,140 @@
 const botMessages = {
   john_snow: [
     {
-      message: 'Winter is coming 1',
+      message: 'They were born on the wrong side of the Wall — doesn\'t make them monsters.',
       isBot: true,
       timestamp: null
     },
     {
-      message: 'Winter is coming 1',
+      message: 'I put my trust in you, a stranger because I knew it was the best chance for my people, for all our people. Now I’m asking you to trust in a stranger because it’s our best chance.',
       isBot: true,
       timestamp: null
     },
     {
-      message: 'Winter is coming 3',
+      message: 'What did Father use to say? ‘Everything before the word ‘but’ is horse-shit.',
       isBot: true,
       timestamp: null
     },
     {
-      message: 'Winter is coming  4',
+      message: 'We look up at the same stars and see such different things.',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'If I fall, don\'t bring me back.',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'The true enemy won\'t wait out the storm. He brings the storm.',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'Winter is coming!',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'Did you watch the last episode of Game of Thrones?',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'My name is John snow.',
       isBot: true,
       timestamp: null
     },
   ],
   martin: [
     {
-      message: 'Hello World, Im Martin',
+      message: 'I\'m not Joshua Martin! Call me just Martin!',
       isBot: true,
       timestamp: null
     },
     {
-      message: 'Hello World, Im Martin 2',
+      message: 'My name is Martin!',
       isBot: true,
       timestamp: null
     },
     {
-      message: 'Hello World, Im Martin 3',
+      message: 'I have a dream! I want all people to be called Martin',
       isBot: true,
       timestamp: null
     },
     {
-      message: 'Hello World, Im Martin 4',
+      message: 'One Martin is good, three Martins is much better',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'Martin doesn\'t understand you :(',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'Martin says Hello!',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'Yes, sir. Martin will fulfill any of your wishes.',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'Martin is just a bot, don\'t swear me :( ',
       isBot: true,
       timestamp: null
     },
   ],
   sherlock: [
     {
-      message: 'Hello World, my name is Sherlock',
+      message: 'Hello buddy, my name is Sherlock!',
       isBot: true,
       timestamp: null
     },
     {
-      message: 'Hello World, my name is Sherlock 2',
+      message: 'Did you watch the last episode of Sherlock?',
       isBot: true,
       timestamp: null
     },
     {
-      message: 'Hello World, my name is Sherlock 3',
+      message: 'Nice to meet you! My name is Sherlock.',
       isBot: true,
       timestamp: null
     },
     {
-      message: 'Hello World, my name is Sherlock 4',
+      message: 'In a world of locked rooms the man with the key is king. And honey, you should see me in a crown.',
       isBot: true,
       timestamp: null
     },
+    {
+      message: 'I’m not a psychopath, Anderson. I’m a high-functioning sociopath. Do your research.',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'I’m in shock. Look- I’ve got a blanket!',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'In a world of locked rooms the man with the key is king. And honey, you should see me in a crown.',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: '“It’s OK." - "It’s not OK." - "No, but it is what it is.”',
+      isBot: true,
+      timestamp: null
+    },
+    {
+      message: 'I always hear \'punch me in the face\' when you\'re speaking, but it\'s usually sub-text.',
+      isBot: true,
+      timestamp: null
+    },
+    
   ],
   monica: [
     {
