@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e9ac885-e98c-4562-8037-5f3904f4499e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579869544663</updated>
       <workItem from="1579869545895" duration="1108000" />
-      <workItem from="1579901655585" duration="31937000" />
+      <workItem from="1579901655585" duration="32193000" />
     </task>
     <task id="LOCAL-00001" summary="removed test index.html and script.js files">
       <created>1580037822774</created>
