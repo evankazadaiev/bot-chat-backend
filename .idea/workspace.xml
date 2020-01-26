@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e9ac885-e98c-4562-8037-5f3904f4499e" name="Default Changelist" comment="" />
+    <list default="true" id="2e9ac885-e98c-4562-8037-5f3904f4499e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579869544663</updated>
       <workItem from="1579869545895" duration="1108000" />
-      <workItem from="1579901655585" duration="27339000" />
+      <workItem from="1579901655585" duration="28031000" />
     </task>
     <task id="LOCAL-00001" summary="removed test index.html and script.js files">
       <created>1580037822774</created>
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580040429428</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="try to remove node_modules 2nd try">
+      <created>1580040648603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580040648603</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +123,7 @@
     <MESSAGE value="added gitignore, removed node_modules and private" />
     <MESSAGE value="added private folder for firebase admin sdk" />
     <MESSAGE value="remove node_modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove node_modules" />
+    <MESSAGE value="try to remove node_modules 2nd try" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to remove node_modules 2nd try" />
   </component>
 </project>
