@@ -1,10 +1,14 @@
+const express = require('express');
+const app = express();
+const server = require('http').Server(app, { origins: '*:*'});
 const utils = require('modules/firebase/firebase.utils');
 const chatUtils = require('modules/chat/chat.utils');
 const { PORT } = require('config/config');
-const io = require('socket.io')(PORT);
+const io = require('socket.io')(server);
 const nsp = io.of('/bot-chat');
 
 // utils.initDefaultCollection();
+app.user(express.static(`${__dirname}../../build`))
 
 nsp.on('connection', socket => {
   console.log('User Connected');
@@ -43,5 +47,8 @@ nsp.on('connection', socket => {
   });
 });
 
+server.listen(PORT, () => {
+  console.log(`connected to port: ${PORT}`);
+});
 
 
