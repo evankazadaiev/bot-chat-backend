@@ -1,5 +1,5 @@
-const utils = require('modules/firebase/firebase.utils');
-const chatUtils = require('modules/chat/chat.utils');
+const utils = require('./modules/firebase/firebase.utils');
+const chatUtils = require('./modules/chat/chat.utils');
 
 const http = require('http');
 const express = require('express');
@@ -15,7 +15,7 @@ app.use(router);
 app.use(cors());
 
 
-const { PORT } = require('config/config');
+const { PORT } = require('./config/config');
 
 
 // utils.initDefaultCollection();
