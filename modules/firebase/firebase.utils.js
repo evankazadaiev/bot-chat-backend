@@ -1,12 +1,43 @@
 const db = require('./firebase');
 
 module.exports = (function() {
+  let defaultBotMessages;
+  
   return {
     initDefaultCollection() {
       const bots = ['john_snow', 'martin', 'sherlock', 'monica', 'dallas', 'ivan'];
       bots.forEach(b => {
         db.collection('ChatRooms').doc(b).set({ messages: [] })
       })
+    },
+    async addCollectionAndDocuments(collectionKey, objectsToAdd) {
+      const collectionRef = db.collection(collectionKey);
+      const batch = db.batch();
+      Object.keys(objectsToAdd).forEach(key => {
+        const docData = { botResponses: objectsToAdd[key] };
+        const newDocRef = collectionRef.doc(key);
+        batch.set(newDocRef, docData);
+      });
+      return await batch.commit();
+    },
+    getRandomMessage() {
+      const random = defaultBotMessages[Math.floor(Math.random() * defaultBotMessages.length)];
+      return random;
+    },
+    async getBotMessages(botId) {
+      try {
+        const snapshot = await db.doc(`botMessages/${botId}`).get();
+        if(snapshot.exists) {
+          const { botResponses = [] }  = snapshot.data();
+          defaultBotMessages = botResponses;
+          return defaultBotMessages;
+        } else {
+          console.log('error occurred while getting bot messages');
+          return [];
+        }
+      } catch (error) {
+        throw error;
+      }
     },
     async getRooms() {
       try {
@@ -20,7 +51,7 @@ module.exports = (function() {
         console.log('Error getting documents', err);
       }
     },
-    async getMessagesByRoomId(roomId) {
+    async getAllMessagesByRoomId(roomId) {
       const roomRef = db.doc(`ChatRooms/${roomId}`);
       console.log(roomId);
       try {

@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e9ac885-e98c-4562-8037-5f3904f4499e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/socket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/private/bot-chat-firebase-admin-sdk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/chat/chat.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/chat/chat.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/chat/chat.data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/chat/chat.utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firebase/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/bot-chat-74180-firebase-adminsdk-gjpsg-6abe31103e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +36,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -54,7 +67,11 @@
       <option name="presentableId" value="Default" />
       <updated>1579869544663</updated>
       <workItem from="1579869545895" duration="1108000" />
-      <workItem from="1579901655585" duration="34177000" />
+      <workItem from="1579901655585" duration="34778000" />
+      <workItem from="1580065729574" duration="2028000" />
+      <workItem from="1580120431432" duration="6022000" />
+      <workItem from="1580145273680" duration="172000" />
+      <workItem from="1580145474870" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="removed test index.html and script.js files">
       <created>1580037822774</created>
