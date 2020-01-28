@@ -18,7 +18,7 @@ The instructions below will help you set up the development environment.
 
 ## Project setup Environment
 
-1. Clone the repository `git clone https://github.com/evankazadaiev/bot-chat-frontend.git`
+1. Clone the repository `git clone https://github.com/evankazadaiev/bot-chat-backend.git`
 1. `cd bot-chat-backend`
 1. `npm install` to install the dependencies.
 1. Make sure you have set up a cloud firestore database in firebase. In order to do this, visit [Firebase](https://firebase.google.com/), go to console, create a project is neccessary, create a cloud firestore database, then go to Settings -> Service accounts tab -> click `Generate private key`, download json with database configurations.
