@@ -5,6 +5,7 @@
 1. [Express](https://expressjs.com/ru/) Node.js framework.
 1. [Socket.io](https://socket.io/docs/client-api/)
 1. [Npm](https://www.npmjs.com/) Package manager.
+1. [Firebase](https://firebase.google.com/) Firebase firestore.
 
 The instructions below will help you set up the development environment.
 
