@@ -3,10 +3,8 @@
 ## Technologies/frameworks used:
 
 1. [Express](https://expressjs.com/ru/) Node.js framework.
-1. [Typescript](https://www.typescriptlang.org/)
-1. [Vue Cli](https://cli.vuejs.org/) Command line tools v4.
-1. [Yarn](https://yarnpkg.com/en/) Package manager.
-1. [ESLint]() Linting.
+1. [Socket.io](https://socket.io/docs/client-api/)
+1. [Npm](https://www.npmjs.com/) Package manager.
 
 The instructions below will help you set up the development environment.
 
