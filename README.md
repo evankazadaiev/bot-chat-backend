@@ -1,5 +1,11 @@
 # Bot chat back-end
 
+
+##Demo
+#Note. Make sure you have started back-end server first.
+1.[Front-end](https://vuejs-bot-chat-app-live.herokuapp.com/) Front-end.
+2.[Back-end](https://vuejs-bot-chat-backend.herokuapp.com/) Back-end.
+
 ## Technologies/frameworks used:
 
 1. [Express](https://expressjs.com/ru/) Node.js framework.
